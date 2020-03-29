@@ -16,7 +16,13 @@ notebook/pc:
 @media (min-width: 860px) {
 }
 */
-
+header{
+  background-image: url("images/pastelky3.jpg");
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+   background-position: bottom;  
+}
 
 body {
     margin: 0;
@@ -25,7 +31,6 @@ body {
 header img{
   width: 100%;
   display: block;
-  /* height: 100px; */
 }
 .obsah{
   background-image: url("images/pozadi2.jpg");
@@ -37,36 +42,22 @@ header img{
   flex-wrap: wrap;
 }
 .fotogalerie img{
-  border: 0.5px solid black;
   width: 100%;
-
+  text-align: center;
 }
 .fotogalerie a{
+  border: 0.25px solid black;
   display: inline-block;
   text-decoration: none;
-  /* border: 0.5px solid black; */
   width: calc(100% / 3);
-
+  background-color: white;
 }
 
-.paticka {
-    text-align: center;
-    font-size: 14px;
-    /* color: silver; */
-}
-
-
-
-/* ------------------------------- */
-/* ----- DOLE BUDE TVOJE CSS ----- */
-/* ------------------------------- */
 /*-----------------------------*/
 /* tablety: */
 @media (min-width: 480px) {
-  header img{
-    width: 100%;
+  header{
     height: 250px;
-    display: block;
   }
   .obsah{
     padding: 10%;
@@ -75,12 +66,16 @@ header img{
 /*----------------------*/
 /* notebook/pc: */
 @media (min-width: 860px) {
+  header{
+    height: 300px;
+  }
   body {
     padding: 0 20%;
   }
-
   p{
     font-size: 1.5rem;
   }
-
+  .fotogalerie a{
+    width: calc(100% / 6); 
+  }
 }
