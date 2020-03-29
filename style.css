@@ -1,0 +1,86 @@
+/* nejsme vcerejsi, pouzivame moderni box model */
+html { box-sizing: border-box; }
+*, :after, :before { box-sizing: inherit; }
+
+
+/* -------------------------------------------------- */
+
+/*
+pouzivame mobile first pristup
+tj. vychozi styly mimo media query jsou pro nejmensi mobilni zarizeni (telefony)
+s pribyvajici sirkou pridavame media query pro...
+tablety:
+@media (min-width: 480px) {
+}
+notebook/pc:
+@media (min-width: 860px) {
+}
+*/
+
+
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+header img{
+  width: 100%;
+  display: block;
+  /* height: 100px; */
+}
+.obsah{
+  background-image: url("images/pozadi2.jpg");
+  padding: 5%;
+}
+
+.fotogalerie{
+  display: flex;
+  flex-wrap: wrap;
+}
+.fotogalerie img{
+  border: 0.5px solid black;
+  width: 100%;
+
+}
+.fotogalerie a{
+  display: inline-block;
+  text-decoration: none;
+  /* border: 0.5px solid black; */
+  width: calc(100% / 3);
+
+}
+
+.paticka {
+    text-align: center;
+    font-size: 14px;
+    /* color: silver; */
+}
+
+
+
+/* ------------------------------- */
+/* ----- DOLE BUDE TVOJE CSS ----- */
+/* ------------------------------- */
+/*-----------------------------*/
+/* tablety: */
+@media (min-width: 480px) {
+  header img{
+    width: 100%;
+    height: 250px;
+    display: block;
+  }
+  .obsah{
+    padding: 10%;
+  }
+}
+/*----------------------*/
+/* notebook/pc: */
+@media (min-width: 860px) {
+  body {
+    padding: 0 20%;
+  }
+
+  p{
+    font-size: 1.5rem;
+  }
+
+}
