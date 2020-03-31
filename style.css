@@ -22,6 +22,9 @@ header{
   background-repeat: no-repeat;
   background-size: cover;
    background-position: bottom;  
+   color: white;
+   text-align: center;
+   font-size: 2rem;
 }
 
 body {
@@ -35,6 +38,12 @@ header img{
 .obsah{
   background-image: url("images/pozadi2.jpg");
   padding: 5%;
+}
+.box_noty{
+  text-align:center;
+}
+.noty{
+  width:30%;
 }
 
 .fotogalerie{
@@ -52,6 +61,39 @@ header img{
   width: calc(100% / 3);
   background-color: white;
 }
+
+.odkaz{
+  text-align: center;
+  padding: 5%;
+  /* margin: 3% 10%; */
+}
+.odkaz a{
+  text-decoration: none;
+  color: black;
+  /* font-weight: bold; */
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 3%;
+  /* background-color: yellow; */
+}
+.odkaz a:hover,
+.odkaz a:focus {
+  background-color: yellow;
+}
+
+.zpet{
+  text-align: right;
+}
+.zpet a{
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  border: 0.5px solid black;
+  border-radius: 5px;
+  background-color: yellow;
+  padding: 5px;
+}
+
 
 /*-----------------------------*/
 /* tablety: */
@@ -73,9 +115,12 @@ header img{
     padding: 0 20%;
   }
   p{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .fotogalerie a{
     width: calc(100% / 6); 
+  }
+  .odkaz a {
+    font-size: 1.3rem;
   }
 }
