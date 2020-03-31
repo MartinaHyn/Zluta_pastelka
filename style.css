@@ -63,18 +63,19 @@ header img{
 }
 
 .odkaz{
-  text-align: center;
-  padding: 5%;
-  /* margin: 3% 10%; */
+  padding-left: 5%;
 }
 .odkaz a{
   text-decoration: none;
   color: black;
-  /* font-weight: bold; */
+  font-size: 1rem;
+  display: block;
+  background-color: white;
   border: 1px solid black;
   border-radius: 10px;
-  padding: 3%;
-  /* background-color: yellow; */
+  width: 90%;
+  padding: 2% 5%;
+  /* text-align: center; */
 }
 .odkaz a:hover,
 .odkaz a:focus {
@@ -83,6 +84,7 @@ header img{
 
 .zpet{
   text-align: right;
+  font-size: 0.7rem;
 }
 .zpet a{
   text-decoration: none;
@@ -122,5 +124,8 @@ header img{
   }
   .odkaz a {
     font-size: 1.3rem;
+  }
+  .zpet{
+    font-size: 1rem;  
   }
 }
