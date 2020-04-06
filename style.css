@@ -16,29 +16,32 @@ notebook/pc:
 @media (min-width: 860px) {
 }
 */
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
 header{
   background-image: url("images/pastelky3.jpg");
   height: 150px;
   background-repeat: no-repeat;
   background-size: cover;
-   background-position: bottom;  
-   color: white;
-   text-align: center;
-   font-size: 2rem;
-}
-
-body {
-    margin: 0;
-    font-family: 'Source Sans Pro', sans-serif;
+  background-position: bottom;  
 }
 header img{
   width: 100%;
   display: block;
 }
+
 .obsah{
   background-image: url("images/pozadi2.jpg");
   padding: 5%;
 }
+
+h1{
+  text-align: center;
+}
+
 .box_noty{
   text-align:center;
 }
@@ -62,6 +65,7 @@ header img{
   background-color: white;
 }
 
+/* class="odkaz" - hlavni odkaz v index.html */
 .odkaz{
   padding-left: 5%;
 }
@@ -76,11 +80,13 @@ header img{
   width: 90%;
   padding: 2% 5%;
   /* text-align: center; */
+  transition: background-color 1s;
 }
 .odkaz a:hover,
 .odkaz a:focus {
   background-color: yellow;
 }
+/* class="odkaz" - hlavni odkaz v index.html */
 
 .zpet{
   text-align: right;
@@ -96,6 +102,31 @@ header img{
   padding: 5px;
 }
 
+/* .odkaz_pisnicka {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  border: 0.2px solid black;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  padding: 0.5px 5px;
+  transition: background-color 0.5s;
+}
+.odkaz_pisnicka:hover,
+.odkaz_pisnicka:focus {
+  background-color:LightYellow;
+} */
+
+footer{
+  background-color: WhiteSmoke;
+   /* LightYellow; */
+  text-align: center;
+  text-decoration: darkslategrey;
+  font-style: italic;
+  padding: 2%;
+  border-top: 0.5px solid black;
+  font-size: 0.8rem;
+}
 
 /*-----------------------------*/
 /* tablety: */
