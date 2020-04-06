@@ -34,7 +34,8 @@ header img{
 }
 
 .obsah{
-  background-image: url("images/pozadi2.jpg");
+  /* background-image: url("images/pozadi2.jpg"); */
+  background-color: WhiteSmoke;
   padding: 5%;
 }
 
@@ -102,7 +103,7 @@ h1{
   padding: 5px;
 }
 
-/* .odkaz_pisnicka {
+ /* .odkaz_pisnicka {
   text-decoration: none;
   color: black;
   font-weight: bolder;
@@ -115,11 +116,10 @@ h1{
 .odkaz_pisnicka:hover,
 .odkaz_pisnicka:focus {
   background-color:LightYellow;
-} */
+}  */
 
-footer{
-  background-color: WhiteSmoke;
-   /* LightYellow; */
+.zapati{
+  background-color: LightGrey;
   text-align: center;
   text-decoration: darkslategrey;
   font-style: italic;
