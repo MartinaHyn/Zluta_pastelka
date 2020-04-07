@@ -34,7 +34,6 @@ header img{
 }
 
 .obsah{
-  /* background-image: url("images/pozadi2.jpg"); */
   background-color: WhiteSmoke;
   padding: 5%;
 }
@@ -66,29 +65,44 @@ h1{
   background-color: white;
 }
 
-/* class="odkaz" - hlavni odkaz v index.html */
-.odkaz{
-  padding-left: 5%;
+.tema{
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 10px;
+  width: 80%;
+  margin: 2%;
 }
+/* class="odkaz" - hlavni odkaz v index.html */
 .odkaz a{
   text-decoration: none;
   color: black;
   font-size: 1rem;
   display: block;
-  background-color: white;
-  border: 1px solid black;
-  border-radius: 10px;
-  width: 90%;
+  width: 100%;
   padding: 2% 5%;
-  /* text-align: center; */
-  transition: background-color 1s;
 }
 .odkaz a:hover,
 .odkaz a:focus {
-  background-color: yellow;
+  color: gold;
 }
 /* class="odkaz" - hlavni odkaz v index.html */
 
+/* class="odkaz-galerie" - hlavni odkaz v index.html */
+.odkaz-galerie a{
+  text-decoration: none;
+  color: black;
+  font-size: 0.8rem;
+  display: inline-block;
+  border-top: 0.5px solid black;
+  width: 100%;
+  padding: 2% 25%;
+  font-style: italic;
+}
+.odkaz-galerie a:hover,
+.odkaz-galerie a:focus {
+  color: gold;
+}
+/* class="odkaz-galerie" - hlavni odkaz v index.html */
 .zpet{
   text-align: right;
   font-size: 0.7rem;
@@ -154,9 +168,13 @@ h1{
     width: calc(100% / 6); 
   }
   .odkaz a {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
   .zpet{
     font-size: 1rem;  
+  }
+  .odkaz-galerie a{
+    font-size: 1rem;
+    padding: 1% 0% 1% 50%;
   }
 }
