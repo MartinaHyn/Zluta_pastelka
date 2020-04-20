@@ -21,6 +21,10 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+.toplist{
+  display: none;
+}
+
 header{
   background-image: url("images/pastelky3.jpg");
   height: 150px;
@@ -148,10 +152,12 @@ h1{
   font-size: 1rem;
 }
 
-.seznam_tyden04 li{
+.seznam_tyden04 li,
+.seznam_tyden05 li{
   padding-bottom: 2%;
 }
-.seznam_tyden04 .fotogalerie{
+.seznam_tyden04 .fotogalerie,
+.seznam_tyden05 .fotogalerie{
   padding: 2% 0 2% 0;
 }
 .tyden04_pohadka_predel{
@@ -160,7 +166,14 @@ h1{
   margin:auto;
   border-bottom:1px dashed black;
 }
-
+.podseznam_tyden05{
+  padding-top: 2%;
+  font-style: italic;
+}
+.tyden05_modra{
+  color: blue;
+  font-weight: bold;
+}
 /*-----------------------------*/
 /* tablety: */
 @media (min-width: 480px) {
