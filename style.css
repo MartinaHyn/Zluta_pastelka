@@ -153,10 +153,12 @@ h1{
 }
 
 .seznam_tyden04 li,
-.seznam_tyden05 li{
+.seznam_tyden05 li,
+.seznam_tyden06 li{
   padding-bottom: 2%;
 }
 .seznam_tyden04 .fotogalerie,
+.seznam_tyden05 .fotogalerie,
 .seznam_tyden05 .fotogalerie{
   padding: 2% 0 2% 0;
 }
@@ -173,6 +175,9 @@ h1{
 .tyden05_modra{
   color: blue;
   font-weight: bold;
+}
+.seznam_tyden06_ciselny{
+  
 }
 /*-----------------------------*/
 /* tablety: */
